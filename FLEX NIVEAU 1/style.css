@@ -1,0 +1,32 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+                                            /*navbar*/
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;  
+    background-color: #18702b;
+        }
+                                             /*navbar*/
+                                             /*list dans navbar*/
+ul      {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-self: center;
+    margin: 20px;
+        }
+li      {
+    display: inline;
+        }
+                                             /*list dans navbar*/
+                                             /*LOGO redbox*/
+div     {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background: red; 
+       }
+                                             /*LOGO redbox*/

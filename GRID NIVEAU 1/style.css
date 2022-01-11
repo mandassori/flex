@@ -1,0 +1,19 @@
+body {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.bighead {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    gap: 5px;
+    padding-top: 70px;
+
+}
+.big {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+}

@@ -1,0 +1,54 @@
+body {
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;  
+    background-color: #18702b;
+        }
+ul      {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-self: center;
+    margin: 20px;
+        }
+li      {
+    display: inline;
+        }
+.cube     {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background: red; 
+       }
+.bighead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 70px;
+}              
+.head1 {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    margin-left: 250px;
+}
+.head2 {
+    height: 500px;
+    width: 500px;
+    background: blueviolet;
+    align-self: center;
+}
+.head3 {
+    height: 100px;
+    width: 100px;
+    background: black;
+    align-self: end;
+    margin-right: 250px;
+    
+}
